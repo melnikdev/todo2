@@ -33,6 +33,7 @@ function getTodo() {
 /**
  * api delete
  * @param id
+ * first
  */
 function deleteTodo(id) {
 

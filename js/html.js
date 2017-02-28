@@ -40,6 +40,7 @@ function addTodo(result, dep = 0) {
 
 /**
  * show input for create
+ * second
  */
 function showCreate() {
     var el = document.getElementById('newTodo');

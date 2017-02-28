@@ -28,6 +28,7 @@ function makeTree(array) {
  * add depth elements
  * @param array
  * @returns {*}
+ * 333
  */
 function addChildren(array) {
 
