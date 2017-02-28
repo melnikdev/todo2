@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>javascript</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <button onclick="showCreate()">Create</button>
+    <div id="newTodo">
+        <input id="todoName" type="text" name="name"><br>
+        <button onclick="saveTodo()">save</button>
+    </div>
+
+    <div class="parent">
+        <ul id="parentList">
+
+        </ul>
+    </div>
+
+    <script src="js/tree.js"></script>
+    <script src="js/html.js"></script>
+    <script src="js/todo.js"></script>
+    <script>
+        window.onload = function () {
+            initApp();
+        }
+    </script>
+</body>
+</html>

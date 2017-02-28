@@ -1,0 +1,26 @@
+#newTodo{
+    display: none;
+}
+.add{
+    cursor: pointer;
+    color:green;
+    margin: 0 5px;
+    padding: 3px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.delete{
+    cursor:pointer;
+    color: darkred;
+    margin: 0 5px;
+    padding: 2px 3px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#parentList{
+    list-style-type: none;
+}
+
+#parentList li{
+    margin: 15px 0;
+}
