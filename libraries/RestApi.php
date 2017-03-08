@@ -145,4 +145,14 @@ class RestApi
                 break;
         }
     }
+
+    /**
+     * @param $x
+     * @param $y
+     * @return bool
+     */
+    public function test($x, $y)
+    {
+        return true;
+    }
 }
