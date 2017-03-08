@@ -155,4 +155,12 @@ class RestApi
     {
         return true;
     }
+
+    /**
+     * empty
+     */
+    public function test2()
+    {
+
+    }
 }
